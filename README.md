@@ -28,7 +28,9 @@ Follow the steps below to run Cine-mate in development mode for Android and iOS.
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/cine-mate.git
+    git clone https://github.com/vetal-hovenko/cinemate.git
+    ```
+    ```
     cd cine-mate
     ```
 
@@ -50,12 +52,12 @@ yarn android
 ```
 
 <br>
-<br>
+
 ### Running on iOS
 
 Clone the repository:
 ```
-git clone https://github.com/your-username/cine-mate.git
+git clone https://github.com/vetal-hovenko/cinemate.git
 ```
 ```
 cd cine-mate
