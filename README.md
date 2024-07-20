@@ -29,7 +29,7 @@ Test out the Cine-mate app on your Android device! Click the link below to downl
 
   
 
-[Download Cine-mate APK](https://www.dropbox.com/scl/fi/a30uyuc9map75ecdq1uuf/Cine-mate.apk?rlkey=lxu62bryln5y8ufwlku3s6m3g&st=m4oijzo5&dl=0)
+[Download Cine-mate APK](https://expo.dev/artifacts/eas/sJEcqsJvZka65k9h7xpszy.apk)
 
   
 
