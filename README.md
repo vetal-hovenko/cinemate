@@ -44,10 +44,9 @@ Follow the steps below to run Cine-mate in development mode for Android and iOS.
 ### Prerequisites
 
   
-
-- Node.js
-
-- Expo CLI (`yarn global add expo-cli`)
+- Node.js (>= 20.15.1)
+- Yarn (npm install -g yarn)
+- Expo CLI (yarn global add expo-cli)
 
   
 
@@ -58,15 +57,12 @@ Follow the steps below to run Cine-mate in development mode for Android and iOS.
 1. **Clone the repository**:
 
 ```sh
-
 git clone https://github.com/vetal-hovenko/cinemate.git
 
 ```
 
 ```
-
 cd cine-mate
-
 ```
 
   
@@ -74,9 +70,7 @@ cd cine-mate
 2. **Install dependencies**:
 
 ```sh
-
 yarn install
-
 ```
 
   
@@ -84,20 +78,13 @@ yarn install
 3. **Start the Expo development server**:
 
 ```sh
-
 yarn start
-
 ```
 
-  
-
-### Running on Android
-
-  
-
-To run the app on an Android device or emulator:
-
-```
-yarn android
-
-```
+4. **Run the app**:
+   - Scan the QR code in the Expo Go app.
+   - Or, to run on an Android device or emulator, use:
+     
+  ```
+  yarn android
+  ```
