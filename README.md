@@ -98,7 +98,6 @@ yarn start
 To run the app on an Android device or emulator:
 
 ```
-
 yarn android
 
 ```
