@@ -4,7 +4,7 @@ import { MovieEntity } from "../../../db/entities/movie.entity";
 import { Movie } from "../../../utils/types/Movie";
 import { DATE_FORMAT } from "../../../utils/constants";
 import { Equal } from "typeorm/browser";
-import { getMovieByName } from "../../../utils/api/searchMoviesByName";
+import { getMovieByName } from "../../../utils/api/getMovieByName";
 
 export class WatchListService {
     private static dbManager = DatabaseService.getManager();

@@ -1,9 +1,7 @@
-import { MovieSearch } from "../types/MovieSearch";
-import { apiConfig } from "./apiConfig";
+import { apiConfig } from './apiConfig';
+import { Movie } from "../types/Movie";
 
-export async function searchMoviesByName(
-    name: string
-): Promise<MovieSearch[] | null> {
+export async function getMovieByName(name: string): Promise<Movie | null> {
     if (!name.trim()) {
         return null;
     }
@@ -11,8 +9,7 @@ export async function searchMoviesByName(
     try {
         const response = await apiConfig.get("", {
             params: {
-                s: name,
-                page: 1,
+                t: name,
             },
         });
 
@@ -20,7 +17,7 @@ export async function searchMoviesByName(
             return null;
         }
 
-        return response.data.search;
+        return response.data;
     } catch (error) {
         console.error("Error fetching movie:", error);
         throw new Error("Error fetching the movie.");

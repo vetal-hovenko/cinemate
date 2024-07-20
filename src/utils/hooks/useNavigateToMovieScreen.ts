@@ -1,5 +1,5 @@
 import { NavigationProp, useNavigation } from "@react-navigation/native";
-import { getMovieByName } from "../api/searchMoviesByName";
+import { getMovieByName } from "../api/getMovieByName";
 import { MovieSearch } from "../types/MovieSearch";
 import { MovieEntity } from "../../db/entities/movie.entity";
 import { RootStackParamList } from "../../navigators/MainNavigationContainer";

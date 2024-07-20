@@ -51,7 +51,7 @@ const TabsNavigator = () => {
                 console.log("error with initialization");
                 console.log(error);
             }
-            console.log({isInit: DatabaseService.getInstance().isInitialized})
+            
             await dispatch(initWatchList());
         })();
     }, []);

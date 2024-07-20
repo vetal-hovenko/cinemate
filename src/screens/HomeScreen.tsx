@@ -14,6 +14,10 @@ const HomeScreen = () => {
     const [movies, setMovies] = useState<IMovieSearch[]>([]);
 
     const handleMovieSearch = async () => {
+        if (!movieName) {
+            return;
+        }
+        
         setSearchError(false);
         setMovies([]);
         const moviesFromAPI = await searchMoviesByName(movieName);
@@ -32,7 +36,7 @@ const HomeScreen = () => {
             contentContainerStyle={{ flex: 1 }}
             style={{ backgroundColor: BACKGROUND }}
         >
-            <View className="flex-1 justify-center p-4 mt-24">
+            <View className="flex-1 justify-center p-4 mt-16">
                 <StyledText
                     style={{ color: HIGHLIGHT, textAlign: "center" }}
                     size={TextSize.EXTRA_LARGE}

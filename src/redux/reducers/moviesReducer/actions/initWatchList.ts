@@ -14,7 +14,7 @@ export const initWatchList = (): ThunkAction<
         const isWatchListInitialized = await AsyncStorage.getItem(
             "are-movies-initialized"
         );
-        console.log({isWatchListInitialized})
+
         if (isWatchListInitialized) {
             dispatch(getUpdatedMoviesFromWatchList());
         } else {
