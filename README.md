@@ -82,6 +82,7 @@ yarn start
 ```
 
 4. **Run the app**:
+   
    - Scan the QR code in the Expo Go app.
    - Or, to run on an Android device or emulator, use:
      
